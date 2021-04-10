@@ -6,7 +6,7 @@ A three page static website about a fictional book store and library for fantasy
 
 # Contributors
 Edward Willems
-HTML scaffold downloaded from FanshaweOnline, uploaded by Justin Brunner
+HTML scaffold downloaded from FanshaweOnline, uploaded by Dayna Puspoky
 
 # MIT License 
 Copyright 2021 Edward Willems
