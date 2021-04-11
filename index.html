@@ -2,36 +2,100 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Home - Magical Archive</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
+    <h2 class="hidden">Home Page</h2>
 	<div id="siteContainer">
     	<header id="mainHeader">
             <h2 class="hidden">Header</h2>
         	<div id="logo">
-                    <img src="images/logo_fullcolour.png">
+                    <img src="images/logo_fullcolour.png" alt="The Magical Archive: A fantasy book store and library. A purple wizard reads an old tome in a wooden frame.">
                     <h2 class="hidden">Logo</h2>
             </div><!--end logo-->
+           
             <nav id="mainNav">
-                <ul>
-                    
+                <h2 class="hidden">Navigation</h2>
+                <ul id="navigation">
+                    <li class="sideways"><a href="index.html">Home</a></li>
+                    <li class="sideways"><a href="about.html">About Us</a></li>
+                    <li class="sideways"><a href="collection.html">The Collection</a></li>
+                    <li class="sideways"><a href="blog.html">Blog</a></li>
+                    <li class="sideways"><a href="shop.html">Shop</a></li>
                 </ul>
             </nav><!--end mainNav-->
             
         </header><!--end mainHeader-->
+       
         <section id="promo">
-        	<div id="promoText"><p>Promo Text</p></div><!--end promoText-->
-        	<div id="promoImage"><p>Promo Image</p></div><!--end promoImage-->
+            <h2 class="hidden">Welcoming Message</h2>
+        	<div id="promoText"><img src="images/hero_stack.jpg" alt="A large stack of books of all colours receding into the distance.">
+                <h1 id="welcome">Your next adventure <br>starts HERE!</h1>
+            </div><!--end promoText-->
+        	<div id="promoImage">
+                <h2 id="behold">Behold, brave adventurer!</h2>
+                <p id="herodescrip">Mystical tomes and daring voyages crowd every shelf of our enchanted building. The mysterious archivists are committed to bringing you the largest collection of fantasy and science fiction novels for rental or purchase! The first step is through these doors and into these pages. <a href="about.html">Learn more about us!</a></p>
+            </div><!--end promoImage-->
         </section><!--end promo-->
-        <section id="productInfo">
-        	<section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc1-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc2-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc3-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc4-->
+
+        <section class="divider">
+            <h2 class="hidden">Divider</h2>
+            <img src="images/curly_divider.png" alt="Divider shaped like books and bookends">
+        </section>
+        
+        <section id="productInfo"> 
+            <h2 class="hidden">Promotional Links</h2>
+
+        	<section class="productDesc">
+                <h2 class="hidden">Collections link</h2>
+                <a href="collection.html"><img src="images/silmaril.jpg" alt="A stack of books shining golden in the sun. The Silmarillion, Coraline, and The Fifth Season."></a>
+                <h3><a href="collection.html">Explore Our Collection</a></h3>
+                <p>Old favourites and new classics, every book in our collection is free to rent for up to three weeks!</p>
+            </section><!--end productDesc1-->
+            
+            <section class="productDesc">
+                <h2 class="hidden">Dungeons and Dragons</h2>
+                <a href="dragons.html"><img src="images/dungeons.jpg" alt="A twenty-sided die sits on a stack of Dungeons and Dragons roleplay books."></a>
+                <h3><a href="dragons.html">D&D and Roleplaying</a></h3>
+                <p>Put on your adventuring shoes and lead your friends on a journey! Check out our selection of Dungeons and Dragons rule books!</p>
+            </section><!--end productDesc2-->
+            
+            <section class="productDesc">
+                <h2 class="hidden">Newsletter Link</h2>
+                <a href="about.html"><img src="images/cat_snug.jpg" alt="A black cat stares over a stack of books"></a>
+                <h3><a href="about.html">New Arrivals</a></h3>
+                <p>A dragon never stops adding to its horde. Subscribe to the newsletter to see what we’ve recently collected!</p>
+            </section><!--end productDesc3-->
+            
+            <section class="productDesc">
+                <h2 class="hidden">Blog Link</h2>
+                <a href="blog.html"><img src="images/deadly.jpg" alt="A black book titled A Deadly Education sits on an old worn table, twigs twisting out of it."></a>
+                <h3><a href="blog.html">Recommendations</a></h3>
+                <p>Not sure where to start? Check out our Blog for recommendations from the owners!</p>
+            </section><!--end productDesc4-->
         </section><!--end productInfo-->
+
+        <section class="divider">
+            <h2 class="hidden">Divider</h2>
+            <img src="images/curly_divider.png" alt="Divider shaped like books and bookends">
+        </section>
+
         <footer id="mainFooter">
-        	<div id="footerNav"><img src="images/logo_footer.png"></div>
+            <h2 class="hidden">Footer</h2>
+        	<div id="footerlogo"><img src="images/logo_footer_smaller.png"></div>
+            
+            <div id="footerNav">
+                <ul>
+                    <li class="sideways"><a href="index.html">Home</a></li>
+                    <li class="sideways"><a href="about.html">About Us</a></li>
+                    <li class="sideways"><a href="collection.html">The Collection</a></li>
+                    <li class="sideways"><a href="blog.html">Blog</a></li>
+                    <li class="sideways"><a href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+            
+            <div id="copyRight"><p>Copyright 2021 E Willems</p></div>
             
         </footer><!--end mainFooter-->
     </div><!--end siteContainer-->

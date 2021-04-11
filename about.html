@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Us - Magical Archive</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+    <h2 class="hidden">About Us</h2>
+	<div id="siteContainer">
+    	<header id="mainHeader">
+        	<h2 class="hidden">Header</h2>
+            <div id="logo">
+                    <img src="images/logo_fullcolour.png" alt="The Magical Archive: A fantasy book store and library. A purple wizard reads an old tome in a wooden frame.">
+                    <h2 class="hidden">Logo</h2>
+            </div><!--end logo-->
+            <nav id="mainNav">
+                <h2 class="hidden">Navigation</h2>
+                
+                <ul id="navigation">
+                    <li class="sideways"><a href="index.html">Home</a></li>
+                    <li class="sideways"><a href="about.html">About Us</a></li>
+                    <li class="sideways"><a href="collection.html">The Collection</a></li>
+                    <li class="sideways"><a href="blog.html">Blog</a></li>
+                    <li class="sideways"><a href="shop.html">Shop</a></li>
+                </ul>
+            </nav><!--end mainNav-->
+            
+        </header><!--end mainHeader-->
+        
+        <section id="contentcontain">
+            <h2 class="hidden">About the Owners</h2>
+        	<div id="leftside">
+                <div id="founder">
+                   <h2>The Founders</h2>
+                </div>
+                
+                <div id="magician">
+                    <img src="images/edward_portrait.jpg" alt="A long haired buffoon holds an enchanted goblet and smiles at the woods.">
+                    <div id="edwarddescrip">
+                        <h3>Edward Willems</h3>
+                        <h4>Magnificent Magician</h4>
+                        <p>Edward Willems is an artist and book collector. All of the books available to rent are from his own personal collection, and he personally selects the books for sale. He is at the shop almost every day and is always ready to talk books! He also runs the Dungeons & Dragons games held in store. </p>
+                    </div>
+                </div>
+                <div id="witch">
+                    <div id="emilydescrip">
+                        <h3>Emily Jayne</h3>
+                        <h4>Wonderous Witch</h4>
+                        <p>Emily Jayne is a registered social worker and therapist with a passion for reading and writing. Emily is our resident expert in horror and dark fantasy, and can often be found lurking around the shelves with our in-house cat, Dr Chilton.  She is often in store to answer any questions about our more unique selections.</p>
+                    </div>
+                    <img src="images/emily_portrait.jpg" alt="An alluring woman in a cape grips a black rose and a book titled 'The Once and Future Witches' while scowling at the sky">
+                    
+                </div>
+                <div id="location">
+                    <h2 class="hidden">Location</h2>
+                    <div>
+                        <div><h2>Location</h2></div>
+                        <div class="locationinfo">
+                            <a href="https://www.google.com/maps/place/12+Caradoc+St+N,+Strathroy,+ON+N7G+2M4/@42.9563551,-81.6226316,18.73z/data=!4m13!1m7!3m6!1s0x882f0411a8c6d6e3:0x7bcb47348cb2daf8!2sStrathroy,+ON!3b1!8m2!3d42.95542!4d-81.6232333!3m4!1s0x882f04170b568e61:0xc77a8f4ee15654d8!8m2!3d42.9563862!4d-81.6223589">
+                                <h2>12 Caradoc ST N<br>Strathroy ON<br>N7G 2M4</h2>
+                            </a>
+                        </div>
+                        <div class="locationinfo"><p>“It's a dangerous business<br>going out of your door.”<br>– JRR Tolkien.</p></div>
+                    </div>
+
+                    <a href="https://www.google.com/maps/place/12+Caradoc+St+N,+Strathroy,+ON+N7G+2M4/@42.9563551,-81.6226316,18.73z/data=!4m13!1m7!3m6!1s0x882f0411a8c6d6e3:0x7bcb47348cb2daf8!2sStrathroy,+ON!3b1!8m2!3d42.95542!4d-81.6232333!3m4!1s0x882f04170b568e61:0xc77a8f4ee15654d8!8m2!3d42.9563862!4d-81.6223589"><img src="images/map.jpg" alt="A map of downtown Strathroy, showing the location of the Magical Archive."></a>
+                </div>
+            </div><!--end content1-->
+        	
+
+
+            <div id="rightside">
+                <h2>Contact Us</h2>
+                <div>
+                    <h2 class="hidden">Contact form opening</h2>
+                    <p>If you have a question or a request for a book we should get for our collection, please fill out the following form. 
+                    </p>
+                </div>
+            <section class="divider">
+                <h2 class="hidden">Divider</h2>
+                <img src="images/curly_divider.png" alt="Divider shaped like books and bookends">
+            </section>
+                <div>
+                    <h2 class="hidden">Contact Form</h2>
+                    <form action="inquiry.php" method="get"> 
+                    <div id="radio"> <h2 class="hidden">Choices</h2>
+                        <label for="rent"><h3>Renting Inquiry</h3></label>
+                        
+                        <label for="buy"><h3>Purchase Inquiry</h3></label>
+                        
+                        <label for="book"><h3>Book Request</h3></label>
+                    </div><div id="radiobutt"> <h2 class="hidden">Buttons</h2>
+                        <input type="radio" id="rent" name="choice" value="rent">
+                        <input type="radio" id="buy" name="choice" value="buy">
+                        <input type="radio" id="book" name="choice" value="book">
+                    </div>
+                    <h4>Please enter your inquiry below.</h4>
+                    <h2 class="hidden">Text Area</h2>
+                        <textarea rows="6" cols="55"></textarea>
+                    </form>
+
+                    <label for="name">Name:</label><input type="text" name="name">
+                    <label for="email">Email:</label><input type="text" name="email">
+                    <button type="submit" >Submit</button>
+                </div>
+
+                <section class="divider">
+                    <h2 class="hidden">Divider</h2>
+                    <img src="images/curly_divider.png" alt="Divider shaped like books and bookends">
+                </section>
+
+                    <h2 class="hidden">Newsletter Subscription</h2>
+                <h3>I would like to subscribe to the Magical Library's Newsletter to to hear about new arrivals and upcoming events!</h3>
+                <form>
+                    <label for="emailletter">Email:</label>
+                    <input type="text" name="emailletter">
+                    <button type="submit">Sign Me Up!</button>
+                </form>
+
+            </div><!--end content2-->
+        </section><!--end contentCon-->
+        
+
+
+
+
+        <footer id="mainFooter">
+        	<h2 class="hidden">Footer</h2>
+            <div id="footerlogo"><img src="images/logo_footer_smaller.png"></div>
+            
+            <div id="footerNav">
+                <ul>
+                    <li class="sideways"><a href="index.html">Home</a></li>
+                    <li class="sideways"><a href="about.html">About Us</a></li>
+                    <li class="sideways"><a href="collection.html">The Collection</a></li>
+                    <li class="sideways"><a href="blog.html">Blog</a></li>
+                    <li class="sideways"><a href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+            
+            <div id="copyRight"><p>Copyright 2021 E Willems</p></div>
+            
+        </footer><!--end mainFooter-->
+    </div><!--end siteContainer-->
+<script src="js/main.js"></script>    
+</body>
+</html>
